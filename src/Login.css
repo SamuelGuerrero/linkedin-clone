@@ -1,0 +1,55 @@
+.login{
+    display: grid;
+    place-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.login > img{
+    object-fit: contain;
+    /* Para disminuir el tamaño del logo */
+    height: 70px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.login > form{
+    display: flex;
+    /* Para la orientación de los elementos en flex */
+    flex-direction: column;
+}
+
+.login > form > input{
+    /* Para agrandar hacia lo ancho del input text */
+    width: 350px;
+    /* Para agrandar la altura del input text */
+    height: 50px;
+    /* Para agrandar la letra del placeholder */
+    font-size: 20px;
+    /* Dándole padding a las letras del placeholder */
+    padding-left:10px;
+    /* Para separar verticalmente los inputs */
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.login > form > button{
+    width: 365px;
+    height: 50px;
+    font-size: large;
+    color: #FFF;
+    background-color: #0074B1;
+    border-radius: 5px;
+}
+
+.login__register{
+    color: #0177B7;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.login > p{
+    margin-top: 20px;
+}
